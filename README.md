@@ -1,10 +1,8 @@
 # OperationManagement
 
-README
-
 Este projeto refere-se a parte 2 do Desafio Programação – Jornada Labs HAVAN.
 
-1 - Linguagem
+<b>1 - Linguagem<b>
 As linguages utilizadas são C# e SQL.
 Projeto criado em Visual Studio 2019 - Windows Forms Apps (.NET Framework)
 
