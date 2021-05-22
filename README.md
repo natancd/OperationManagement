@@ -43,7 +43,7 @@ Há um botão Voltar, que retorna ao menu inicial.
 
 3 - Configurações para uso
 
-Há duas formas de testar o aplitativo:
+Há duas formas de testar o aplicativo:
 
 A mais rápida:
 
