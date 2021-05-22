@@ -1,0 +1,14 @@
+C:\Users\natan\Desktop\operationManagement\bin\Release\Database1.mdf
+C:\Users\natan\Desktop\operationManagement\bin\Release\Database1_log.ldf
+C:\Users\natan\Desktop\operationManagement\bin\Release\OperationManagement.exe.config
+C:\Users\natan\Desktop\operationManagement\bin\Release\OperationManagement.exe
+C:\Users\natan\Desktop\operationManagement\bin\Release\OperationManagement.pdb
+C:\Users\natan\Desktop\operationManagement\obj\Release\OperationManagement.csprojAssemblyReference.cache
+C:\Users\natan\Desktop\operationManagement\obj\Release\OperationManagement.OperationManagementForm.resources
+C:\Users\natan\Desktop\operationManagement\obj\Release\OperationManagement.frmReports.resources
+C:\Users\natan\Desktop\operationManagement\obj\Release\OperationManagement.Properties.Resources.resources
+C:\Users\natan\Desktop\operationManagement\obj\Release\OperationManagement.Register.resources
+C:\Users\natan\Desktop\operationManagement\obj\Release\OperationManagement.csproj.GenerateResource.cache
+C:\Users\natan\Desktop\operationManagement\obj\Release\OperationManagement.csproj.CoreCompileInputs.cache
+C:\Users\natan\Desktop\operationManagement\obj\Release\OperationManagement.exe
+C:\Users\natan\Desktop\operationManagement\obj\Release\OperationManagement.pdb
