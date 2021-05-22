@@ -45,20 +45,20 @@ Há um botão Voltar, que retorna ao menu inicial.
 
 Há duas formas de testar o aplicativo:
 
-A mais rápida:
-
 1 - Baixar projeto em https://github.com/natancd/OperationManagement.git
 
-2 - No diretório "OperationManagement\bin\Release" há o arquivo "OperationManagement.exe" que pode ser executado diretamente, desde que os demais arquivos da pasta estejam juntos.
+A mais rápida:
+
+No diretório "OperationManagement\bin\Release" há o arquivo "OperationManagement.exe" que pode ser executado diretamente, desde que os demais arquivos da pasta estejam juntos.
 
 Outra forma é dentro do compilador:
 
 Abrir o projeto no mesmo link e executar no Visual Studio (eu utilizei a versão 2019, mas acredito que não deva ter problemas com a 2017).
-Ao iniciar, é preciso conectar o arquivo mdf na database local da seguinte forma: "Data Connections > Adicionar Conexão". Mudar a Data Source para "Microsoft SQL Server Database File (SqlClient)" e pesquisar o arquivo "Database1.mdf" no diretório principal e testar a conexão.
+Ao iniciar, é preciso conectar o arquivo mdf na database local da seguinte forma: no Server Explorer, botão direito em "Data Connections > Adicionar Conexão". Mudar a Data Source para "Microsoft SQL Server Database File (SqlClient)" e procurar o arquivo "Database1.mdf" no diretório principal e testar a conexão.
 
-Se estiver OK, basta confirmar a tela e rodar o projeto.
+Se estiver OK, basta confirmar a tela e iniciar o projeto.
 
-Pode haver problemas de conexão na database, sendo preciso alterar duas classes: frmRegister.cs e frmReports.cs. Logo no início do código há uma constante chamada "const string fileName". É preciso alterar este caminho para o local onde está salvo o arquivo "Database1.mdf". Uma forma de fazer isso sem pesquisar onde está o arquivo é clicar com o botão direito na Database1, no Server Explorer, e clicar em Propriedades. No Connection String haverá um caminho similar a este: "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename="C:\Users\natan\Desktop\New folder\OperationManagement-main\Database1.mdf";Integrated Security=True". Basta somente copiar o valor do AttachDbFilename e substituir na constante das duas classes citadas anteriormente, mantendo o @.
+Pode haver problemas de conexão na database, sendo preciso alterar duas constantes em duas classes: frmRegister.cs e frmReports.cs. Logo no início do código há uma constante chamada "const string fileName". É preciso alterar este caminho para o local onde está salvo o arquivo "Database1.mdf". Uma forma de fazer isso sem pesquisar onde está o arquivo é clicar com o botão direito na Database1, no Server Explorer, e clicar em Propriedades. No Connection String haverá um caminho similar a este: "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename="C:\Users\natan\Desktop\New folder\OperationManagement-main\Database1.mdf";Integrated Security=True". Basta somente copiar o valor do AttachDbFilename e substituir na constante das duas classes citadas anteriormente, mantendo o @.
 
 
 4 - Considerações finais
