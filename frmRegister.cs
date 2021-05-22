@@ -1,4 +1,4 @@
-﻿/* Projeto: Desafio Programação – Jornada Labs HAVAN - Parte 2
+/* Projeto: Desafio Programação – Jornada Labs HAVAN - Parte 2
  * Autor: Natan Colavite Dellagiustina
  * Data: 22/05/2021
  * Tela: frmRegister.cs
@@ -21,6 +21,9 @@ namespace OperationManagement
     {
         //ALTERAR AQUI O FILENAME PARA A POSTA O LOCAL DO ARQUIVO EM SEU COMPUTADOR
         string fileName = @"C:\Users\natan\Desktop\operationManagement\OperationManagement\Database1.mdf";
+
+        // CONSTANTE DA TAXA
+        const double tax = 10.00; //%
 
         // CONSTANTES DE CONVERSÃO
         // valores obtidos em 16/05/2021. fonte: www.google.com (googlefinance - https://www.google.com/intl/en/googlefinance/disclaimer/)
@@ -51,6 +54,7 @@ namespace OperationManagement
         {
             InitializeComponent();
             this.ActiveControl = txtFullName;
+            txtTax.Text = tax + "%";
             cbOriginCurrency.SelectedIndex = 1;
             cbDestinyCurrency.SelectedIndex = 7;
             btnSave.Enabled = true;
