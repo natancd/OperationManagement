@@ -35,7 +35,7 @@ Há dois botões radio num quadro de Valores: Origem e Convertidos, que irão de
 
 Botão Valor Total das Operações: realiza uma soma total dos valores de acordo com o filtro, se houver algum critério. Se o rádio Original estiver selecionado, irá realizar a pesquisa na database somente dos valores de origem cadastrados. Se for o Convertido, será somente os valores convertidos.
 
-Botão Valor Total das Taxas Cobradas: realiza uma soma total dos valores de acordo com o filtro, se houver algum critério e cálcula 10% desse valor. Se o rádio Original estiver selecionado, irá realizar a pesquisa na database somente dos valores de origem cadastrados. Se for o Convertido, será somente os valores convertidos.
+Botão Valor Total das Taxas Cobradas: realiza uma soma total dos valores de acordo com o filtro, se houver algum critério e cálcula 10% desse valor (constante salva no início do código, pode ser alterada no código fonte). Se o rádio Original estiver selecionado, irá realizar a pesquisa na database somente dos valores de origem cadastrados. Se for o Convertido, será somente os valores convertidos.
 
 Para os dois botões de valores, somente um pop-up irá aparecer na tela informando o valor desejado de acordo com a pesquisa e seus respectivos filtros.
 
@@ -65,7 +65,7 @@ Pode haver problemas de conexão na database, sendo preciso alterar duas constan
 
 Há alguns incrementos que poderiam afetar e melhorar o desempenho do programa:
 
-1 - Um campo para alterar o valor da taxa, atualmente está fixa em 10% no código-fonte, mas é só alterar este valor na constante que os cálculos serão realizados corretamente.
+1 - Um campo para alterar o valor da taxa, atualmente está fixa em 10% no código-fonte, mas é só alterar este valor na constante (duas no frmRegister.cs e frmReports.cs) que os cálculos serão realizados corretamente.
 
 2 - Um campo para adicionar os valores de conversão, como definido nas instruções do desafio. Atualmente estão definidos em constantes no código-fonte.
 
