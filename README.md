@@ -2,11 +2,14 @@
 
 Este projeto refere-se a parte 2 do Desafio Programação – Jornada Labs HAVAN.
 
-<b>1 - Linguagem<b>
+1 - Linguagem
+
 As linguages utilizadas são C# e SQL.
 Projeto criado em Visual Studio 2019 - Windows Forms Apps (.NET Framework)
 
+
 2 - O sistema
+
 Consiste em um programa que tem duas principais funções ao iniciar o projeto: cadastro de operações (a - botão Cadastro) e relatórios (b - Relatórios).
 a. Ao iniciar o projeto e clicar no botão Cadastro, uma nova tela onde alguns dados já virão pré preenchidos, mas alguns o usuário deve informar: nome e valor original.
 Como parâmetro iniciais, a moeda de origem será o Dólar Canadense, a moeda de destino será o Real e a data será a data atual, sendo possível alterar os 3 como desejar.
@@ -34,12 +37,14 @@ Para os dois botões de valores, somente um pop-up irá aparecer na tela informa
 Há um botão Voltar, que retorna ao menu inicial.
 
 3 - Configurações para uso
+
 Há duas formas de testar o aplitativo:
 A mais rápida:
 1 - Baixar projeto em https://github.com/natancd/OperationManagement.git
 2 - No diretório "OperationManagement\bin\Release" há o arquivo "OperationManagement.exe" que pode ser executado diretamente, desde que os demais arquivos da pasta estejam juntos.
 
 Outra forma é dentro do compilador:
+
 Abrir o projeto no mesmo link e executar no Visual Studio (eu utilizei a versão 2019, mas acredito que não deva ter problemas com a 2017).
 Ao iniciar, é preciso conectar o arquivo mdf na database local da seguinte forma: "Data Connections > Adicionar Conexão". Mudar a Data Source para "Microsoft SQL Server Database File (SqlClient)" e pesquisar o arquivo "Database1.mdf" no diretório principal e testar a conexão.
 Se estiver OK, basta confirmar a tela e rodar o projeto.
@@ -47,6 +52,7 @@ Pode haver problemas de conexão na database, sendo preciso alterar duas classes
 
 
 4 - Considerações finais
+
 Há alguns incrementos que poderiam afetar e melhorar o desempenho do programa:
 1 - Um campo para alterar o valor da taxa, atualmente está fixa em 10% no código-fonte, mas é só alterar este valor na constante que os cálculos serão realizados corretamente.
 2 - Um campo para adicionar os valores de conversão, como definido nas instruções do desafio. Atualmente estão definidos em constantes no código-fonte.
